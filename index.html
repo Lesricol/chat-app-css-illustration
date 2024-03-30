@@ -3,10 +3,126 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon-32x32.png"
+      type="image/png"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
   <body>
-    <hi>Proyecto Base</hi>
+    <div class="rectangulo"></div>
+    <main>
+      <div class="chat-app">
+        <div class="avatar-info">
+          <div class="info-left">
+            <img
+              class="avatar-icon"
+              src="./assets/images/Path 4.svg"
+              alt="path"
+            />
+            <img
+              class="avatar-img"
+              src="./assets/images/avatar.jpg"
+              alt="avatar"
+            />
+            <div class="description">
+              <h2 class="avatar-name">Samuel Green</h2>
+              <p class="avatar-description">Available to Walk</p>
+            </div>
+          </div>
+          <img
+            class="avatar-icon"
+            src="./assets/images/Combined Shape.svg"
+            alt="settings"
+          />
+        </div>
+        <div class="chat">
+          <div class="receptor first">
+            <p class="text-receptor">
+              That sounds great. I’d be happy to discuss more.
+            </p>
+          </div>
+          <div class="receptor second">
+            <p class="text-receptor">
+              Could you send over some pictures of your dog, please?
+            </p>
+          </div>
+          <div class="emisor">
+            <div class="container-img">
+              <img
+                class="emisor-img"
+                src="./assets/images/dog-image-1.jpg"
+                alt="perro feli"
+              />
+              <img
+                class="emisor-img"
+                src="./assets/images/dog-image-2.jpg"
+                alt="perro veraniego"
+              />
+              <img
+                class="emisor-img"
+                src="./assets/images/dog-image-3.jpg"
+                alt="perro leñador"
+              />
+            </div>
+            <div class="emisor-first">
+              <p class="text-emisor">
+                Here are a few pictures. She’s a happy girl!
+              </p>
+            </div>
+            <div class="emisor-second">
+              <p class="text-emisor">Can you make it?</p>
+            </div>
+          </div>
+          <div class="receptor-bottom">
+            <div class="receptor third">
+              <p class="text-receptor">
+                She looks so happy! The time we discussed works. How long shall
+                I take her out for?
+              </p>
+            </div>
+            <div class="price-receptor price-first">
+              <div class="price-left">
+                <div class="box"></div>
+                <span class="price-time">30 minute walk</span>
+              </div>
+              <span class="price">$29</span>
+            </div>
+            <div class="price-receptor price-second">
+              <div class="price-left">
+                <div class="box"></div>
+                <span class="price-time">1 hour walk</span>
+              </div>
+              <span class="price">$49</span>
+            </div>
+          </div>
+          <div class="input">
+            <p class="text-input">Type a message…</p>
+            <img
+              class="icon-emisor"
+              src="./assets/images/Group 8.svg"
+              alt="enviar"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="text-bottom">
+        <h1 class="main-title">Simple booking</h1>
+        <p class="text">
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
+      </div>
+    </main>
   </body>
 </html>
